@@ -1,0 +1,32 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
+}
+
+header {
+  display: flex;
+  background-color: #1f2937;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 8vw;
+  padding-right: 8vw;
+}
+
+.header-left {
+  font-size: 24px;
+  color: #f9faf8;
+  min-width: 235px;
+  flex-shrink: 1
+}
+
+.header-right {
+  display: flex;
+  font-size: 18px;
+  color: #e5e7eb;
+  justify-content: flex-start;
+  align-content: flex-start;
+  column-gap: 24px;
+  flex-wrap: wrap;
+}
+
