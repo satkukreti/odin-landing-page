@@ -11,22 +11,90 @@ header {
   flex-wrap: wrap;
   padding-left: 8vw;
   padding-right: 8vw;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-left {
+  min-width: 235px;
+  flex-shrink: 1;
+}
+
+.header-left h3 {
   font-size: 24px;
   color: #f9faf8;
-  min-width: 235px;
-  flex-shrink: 1
+  margin: 0px;
 }
 
 .header-right {
   display: flex;
-  font-size: 18px;
-  color: #e5e7eb;
   justify-content: flex-start;
   align-content: flex-start;
   column-gap: 24px;
   flex-wrap: wrap;
+}
+
+.header-right h3 {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-top: 12px;
+  margin-bottom: 0px;
+}
+
+.intro {
+  display: flex;
+  background-color: #1f2937;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 8vw;
+  padding-right: 8vw;
+  padding-top: 24px;
+  padding-bottom: 48px;
+}
+
+.intro-text {
+  font-weight: 900;
+  flex: 1;
+  max-width: 550px;
+  min-width: 300px;
+}
+
+.intro-text h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  margin: 0px;
+}
+
+.intro-text h4 {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.intro-text button {
+  color: #f9faf8;
+  background-color: #3882f6;
+  border: none;
+  border-radius: 8px;
+  width: 80px;
+  height: 35px;
+}
+
+.intro .img-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  max-width: auto;
+  min-width: 300px;
+}
+
+.intro img {
+  height: auto;
+  width: 70%;
+  object-fit: cover;
+  margin: 0px;
 }
 
