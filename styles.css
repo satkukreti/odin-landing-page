@@ -80,9 +80,10 @@ header {
   border-radius: 8px;
   width: 80px;
   height: 35px;
+  margin-bottom: 16px;
 }
 
-.intro .img-holder {
+.img-holder {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -98,3 +99,47 @@ header {
   margin: 0px;
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 8vw;
+  padding-right: 8vw;
+  padding-top: 24px;
+  padding-bottom: 48px;
+}
+
+.main h2 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  text-align: center;
+}
+
+.buckets {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 36px;
+}
+
+.bucket {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 200px;
+}
+
+.bucket div {
+  border: 3px solid #3882f6;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.bucket h4 {
+  text-align: center;
+  color: #1f2937;
+  font-size: 18px;
+}
