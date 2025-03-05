@@ -135,11 +135,92 @@ header {
 .bucket div {
   border: 3px solid #3882f6;
   border-radius: 8px;
-  background-color: white;
+  background-color: #f9faf8;
 }
 
 .bucket h4 {
   text-align: center;
   color: #1f2937;
   font-size: 18px;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.quote h1 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.quote h3 {
+  font-size: 24px;
+  text-align: right;
+  margin-right: 12px;
+}
+
+.end {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 8vw;
+  padding-right: 8vw;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.box {
+  background-color: #3882f6;
+  border-radius: 8px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box-text {
+  padding-left: 24px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.box-text h3 {
+  color: #f9faf8;
+  padding-top: 18px;
+  margin-top: 0px;
+  margin-bottom: 4px;
+  font-size: 24px;
+}
+
+.box-text h4 {
+  color: #f9faf8;
+  margin-top: 4px;
+  padding-bottom: 22px;
+  margin-bottom: 0px;
+  font-size: 18px;
+}
+
+.box-button {
+  display: flex;
+  flex-shrink: 0;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  padding-right: 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-button button {
+  width: 80px;
+  height: 35px;
+  border: 3px solid #f9faf8;
+  border-radius: 8px;
+  background-color: #3882f6;
+  color: #f9faf8;
 }
